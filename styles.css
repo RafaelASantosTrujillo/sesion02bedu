@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background-color: #fffbf7;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header-conteiner-padre {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
+h1 {
+  color: #025157;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#parrafo {
+  color: #46484c;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#parrafoDos {
+  color: #8b8b8bcc;
+  text-align: center;
+  margin-top: 10px;
+}
+.itemForm{
+    text-align: center;
+}
+.imagenCapterra{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-container-padre {
+  background: #67b54b;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.header-conteiner-padre > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+.logo {
+  width: 15%;
+}
+.logo > img {
+  height: 100%;
+}
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+.navbarFooter{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.menu-item {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+.actions > * {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.actions a {
+  color: #67b54b;
+}
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+.buttonTryItNow {
+    color: #fff;
+    background-color: #025157;
+}
